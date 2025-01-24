@@ -15,15 +15,15 @@ var Outside = {
 			name: _('gatherer'),
 			delay: 10,
 			stores: {
-				'wood': 1
+				'wood': 3
 			}
 		},
 		'hunter': {
 			name: _('hunter'),
 			delay: 10,
 			stores: {
-				'fur': 0.5,
-				'meat': 0.5
+				'fur': 2,
+				'meat': 2
 			}
 		},
 		'trapper': {
@@ -31,24 +31,24 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'meat': -1,
-				'bait': 1
+				'bait': 2
 			}
 		},
 		'tanner': {
 			name: _('tanner'),
 			delay: 10,
 			stores: {
-				'fur': -5,
-				'leather': 1
+				'fur': -1,
+				'leather': 2
 			}
 		},
 		'charcutier': {
 			name: _('charcutier'),
 			delay: 10,
 			stores: {
-				'meat': -5,
-				'wood': -5,
-				'cured meat': 1
+				'meat': -1,
+				'wood': -1,
+				'cured meat': 5
 			}
 		},
 		'iron miner': {
@@ -56,7 +56,7 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'cured meat': -1,
-				'iron': 1
+				'iron': 2
 			}
 		},
 		'coal miner': {
@@ -64,7 +64,7 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'cured meat': -1,
-				'coal': 1
+				'coal': 2
 			}
 		},
 		'sulphur miner': {
@@ -72,7 +72,7 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'cured meat': -1,
-				'sulphur': 1
+				'sulphur': 2
 			}
 		},
 		'steelworker': {
@@ -81,7 +81,7 @@ var Outside = {
 			stores: {
 				'iron': -1,
 				'coal': -1,
-				'steel': 1
+				'steel': 5
 			}
 		},
 		'armourer': {
@@ -90,7 +90,7 @@ var Outside = {
 			stores: {
 				'steel': -1,
 				'sulphur': -1,
-				'bullets': 1
+				'bullets': 3
 			}
 		}
 	},
