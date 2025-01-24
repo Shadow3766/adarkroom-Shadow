@@ -5,7 +5,7 @@ var Path = {
 	Weight: {
 		'bone spear': 2,
 		'iron sword': 3,
-		'steel sword': 5,
+		'steel sword': 3,
 		'rifle': 5,
 		'bullets': 0.1,
 		'energy cell': 0.2,
